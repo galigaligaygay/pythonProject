@@ -7,8 +7,7 @@ driver = webdriver.Chrome()
 #打开浏览器
 driver.get(url="https://www.baidu.com")
 #浏览器窗口最大化
-driver.maximize_window()puu
-#浏览器刷新
+driver.maximize_window()
 driver.refresh()
 #打开新网页
 driver.get(url="http://news.baidu.com/")
